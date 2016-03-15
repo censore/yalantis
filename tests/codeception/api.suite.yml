@@ -1,0 +1,6 @@
+class_name: ApiTester
+modules:
+  enabled:
+    - SOAP:
+      depends: PhpBrowser
+      endpoint: http://serviceapp/api/v1/
