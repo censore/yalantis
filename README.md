@@ -5,12 +5,16 @@ Pomazkov A.A.
 ## INSTALLATION
 
 1. $ composer update
+
 2. CREATE DATABASE IF NOT EXISTS `yalantis` /*!40100 DEFAULT CHARACTER SET utf8 */;
    USE `yalantis`;
+   
 3. If your DataBase use passwords, then rewrite file: config/db.php
-    3.1 'username' => 'root', <-- your DB user
-        'password' => '', <-- your DB user password
-        'charset' => 'utf8',
+
+    3.1 'username' => 'root'    <-- your DB user
+        'password' => ''        <-- your DB user password
+        'charset' => 'utf8'
+        
 4. $ yiic migrate
 
 
